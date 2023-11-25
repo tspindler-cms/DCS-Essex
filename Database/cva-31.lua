@@ -19,13 +19,13 @@ GT.race_velocity = 12.1 --M/S
 GT.economy_velocity = 7.7 --M/S 
 GT.economy_distance = 13,000 -- KM
 GT.race_distance = 2.778e+006
-GT.shipLength = 225.20 -- o.a in meters
-GT.Width = 43.90 --15 --meters
-GT.Height = 35.226 --335.226 from sea level I think
-GT.Length = 225.20 -- deck length I think
-GT.DeckLevel = 11.816 -- height of deck
-GT.X_nose = 107.0 -- bow wave
-GT.X_tail = -104.5 -- wake
+GT.shipLength = 243.238 -- o.a in meters
+GT.Width = 31.289 --15 --meters
+GT.Height = 58.30 --335.226 from sea level I think
+GT.Length = 260.00 -- deck length I think
+GT.DeckLevel = 16.95 -- height of deck
+GT.X_nose = 120.0 -- bow wave
+GT.X_tail = -123.238 -- wake
 GT.Tail_Width = 8 --wake width
 GT.Gamma_max = 0.35 -- no idea
 GT.Om = 0.05 --no idea
@@ -34,11 +34,12 @@ GT.R_min = 665.8 -- turn radius
 
 GT.RCS = 100000 -- new in 2.7 ----estimated RCS in square meters
 GT.IR_emission_coeff = 0.9 -- new in 2.7 not sure the params
---[[ 
--- TODO: ensure any of this works
-GT.TACAN		   = true;		--If it has TACAN say true if not say false or not have this entry
-GT.TACAN_position = {7.006,  43.155,  -14.1} --position of tacan TX	
 
+-- TODO: ensure any of this works
+GT.TACAN = true;		--If it has TACAN say true if not say false or not have this entry
+GT.TACAN_position = { 5.7438, 88.422,  21.293} -- position of tacan TX, center of wires
+
+--[[ 
 GT.ICLS = true; -- IF it has ICLS say true if not say false or not have this entry
 GT.ICLS_Localizer_position =  {-109.324,  9.685,  7.715, 189.0}	-- {x [m], y [m], z [m], yaw [deg]} 
 GT.ICLS_Glideslope_position = {-14.694,  19.945, 13.212,   3.5}	-- {x [m], y [m], z [m], glideslope = 3.5 [deg]}
@@ -76,7 +77,7 @@ GT.Landing_Point	= {101.926,   11.812,   -12.378} -- y z x You need this otherwi
 
 -- smoke density and position
 GT.exhaust = {
-	  [1] = { size = 0.2 , pos = {0.0, 28.0, 16.0 } }, --Y, Z, X
+	  [1] = { size = 0.2 , pos = {-15.269, 43.243, -13.786 } }, --Y, Z, X
 }
       --[2] = { size = 1.0 , pos = {-1.9, 29.0, 14.0 } },	--if you have 2 stacks then enable this	
 
