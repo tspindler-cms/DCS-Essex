@@ -3,7 +3,7 @@
 
 GT = {};
 -- TODO
--- dofile(current_mod_path..'/scripts/ShipnameRunwaysAndRoutes.lua') -- the runways and taxiway lua file
+dofile(current_mod_path..'/scripts/EssexRunwaysAndRoutes.lua') -- the runways and taxiway lua file
 GT_t.ws = 0;
 
 set_recursive_metatable(GT, GT_t.generic_ship) -- all ships have this
@@ -37,7 +37,7 @@ GT.IR_emission_coeff = 0.9 -- new in 2.7 not sure the params
 
 -- TODO: ensure any of this works
 GT.TACAN = true;		--If it has TACAN say true if not say false or not have this entry
-GT.TACAN_position = { 5.7438, 88.422,  21.293} -- position of tacan TX, center of wires
+GT.TACAN_position = {88.422, 21.293, 5.7438} -- { 5.7438, 88.422,  21.293 } -- position of tacan TX, center of wires
 
 --[[ 
 GT.ICLS = true; -- IF it has ICLS say true if not say false or not have this entry
@@ -73,14 +73,12 @@ GT.Stations = 	{	LSO = LSO_Station, }
 
 
 -- Landing point
-GT.Landing_Point	= {101.926,   11.812,   -12.378} -- y z x You need this otherwise the aircraft will not load on the deck
+GT.Landing_Point	= {88.422, 21.293, 5.7438} -- y z x You need this otherwise the aircraft will not load on the deck
 
 -- smoke density and position
 GT.exhaust = {
-	  [1] = { size = 0.2 , pos = {-15.269, 43.243, -13.786 } }, --Y, Z, X
+	  [1] = { size = 0.2 , pos = {-15.269, 33.243, -13.786 } }, --Y, Z, X
 }
-      --[2] = { size = 1.0 , pos = {-1.9, 29.0, 14.0 } },	--if you have 2 stacks then enable this	
-
 
 GT.animation_arguments.catapult_shuttles = {145, 146, 147, 148} --shuttle args
 GT.animation_arguments.arresting_wires = {141, 142, 143, 144} -- can't get the visibilty anim to work, differnt #arg numbers on the Stennis and SC
@@ -178,7 +176,7 @@ GT.airFindDist = 28000 -- Max detenction range air threats (meters)
 --Radar info
 GT.WS = {}
 GT.WS.maxTargetDetectionRange = 25000; --450000
-GT.WS.radar_type = 104 --104= Short range, 103 = Mid range at a guess 102 = Long range
+GT.WS.radar_type = 102 --104= Short range, 103 = Mid range at a guess 102 = Long range
 GT.WS.searchRadarMaxElevation = math.rad(60);
 local ws;
 
