@@ -9,7 +9,7 @@ GT_t.ws = 0;
 set_recursive_metatable(GT, GT_t.generic_ship) -- all ships have this
 
 GT.visual = {}
-GT.visual.shape = "essex_dcs.edm"  -- name of LODs lua
+GT.visual.shape = "essex_dcs"  -- name of LODs lua
 GT.visual.shape_dstr = "" -- if there is a destruction model it goes here
 
 GT.life = 7200; -- hit points
@@ -115,7 +115,20 @@ GT.carrierIlluminationStates = {
 								
 --Damage Model
 GT.DM = {
---[[     { area_name = "NOSE_R_01", 				area_arg = 70, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_01", size = 0.5}},
+	{ area_name = "Cat walk", area_arg = 70, area_life = 50 },
+	{ area_name = "Cat walk 2", area_arg = 71, area_life = 50 },
+	{ area_name = "Cat walk 3", area_arg = 72, area_life = 50 },
+	{ area_name = "Cat walk 4", area_arg = 73, area_life = 50 },
+	{ area_name = "Deck", area_arg = 74, area_life = 150 },
+	{ area_name = "Deck no tie down", area_arg = 75, area_life = 150 },
+	{ area_name = "Hangar", area_arg = 76, area_life = 150 },
+	{ area_name = "Hangar ceiling", area_arg = 77, area_life = 150 },
+	{ area_name = "Hull", area_arg = 78, area_life = 150 },
+	{ area_name = "Island Elevator", area_arg = 79, area_life = 150 },
+	{ area_name = "JBD", area_arg = 80, area_life = 50 },
+	{ area_name = "Tail", area_arg = 81, area_life = 50 } 
+	
+--[[     { area_name = "NOSE_R_01",  				area_arg = 70, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_01", size = 0.5}},
 	{ area_name = "NOSE_R_02", 				area_arg = 94, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_02", size = 0.5}},
 	{ area_name = "CENTER_R_01", 			area_arg = 71, area_life = 150, area_fire = { connector = "FIRE_CENTER_R_01", size = 0.5}},
 	{ area_name = "CENTER_R_02", 			area_arg = 96, area_life = 150, area_fire = { connector = "FIRE_CENTER_R_02", size = 0.5}},
