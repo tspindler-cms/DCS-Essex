@@ -1,23 +1,20 @@
 -- ***************** "Essex class CVA-31 Bon Homme Richard" ******************************
 
 --   Runways and landing strip for 'CVA-31'
--- You can get deck hieght from 3d software
+-- You can get deck height from 3d software
 -- you can use the carrier plugin in the modelviewer to help with the routes
 GT.RunWays =
 {     
 -- landing strip definition (first in table)  
 --	VppStartPoint; 		   azimuth (degree} 	  Length_Vpp; 	   Width_Vpp;
-	{{0.0, 0.0, 0.0}, 		   000, 			       0.0, 			0.0,  --somewhere between last wire and model center / just past last wire
+	{{-78.5916, 17.0026, -5.60511}, 349.0,		   97.0, 			   20.0,  --somewhere between last wire and model center / just past last wire
 
 -- alsArgument, lowGlidePath, slightlyLowGlidePath, onLowerGlidePath, onUpperGlidePath, slightlyHighGlidePath, highGlidePath
 	1, 			3.5, 		  		4.0, 					4.5, 			  4.5, 				5.0, 				5.5},
 
 -- runways/Cats inbetween Hold back start and connect to front of ship not where the cat/start point connectors are
-	{{0.0,  0.0,    0.0}, 		000, 		    	  62.684, 		    20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat locations
-	{{0.0,  0.0,    0.0}, 		000, 		    	  65.568, 	        20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat Locations 
-	{{0.0,  0.0,    0.0}, 		000, 		          62.684, 		    20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat locations
-	{{0.0,  0.0,    0.0}, 		000, 		    	  65.568, 	        20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat Locations 
-
+	{{49.0047,  16.9042,    7.8295}, 		000, 		    	  80.9248, 		    20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 1 location
+	{{49.0047,  16.9042,    -10.4665}, 		000, 		    	  80.9248, 	        20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 2 location
 	};
 
 GT.RunWays.RunwaysNumber = #GT.RunWays
