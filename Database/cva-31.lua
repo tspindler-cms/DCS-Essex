@@ -55,12 +55,10 @@ VerticalCoverageAngle = 1.7
  ]]
 GT.distFindObstacles = 10000
 
---[[ 
 GT.numParking = 2 -- runways
 GT.Plane_Num_ = 12 --number of planes, not sure if it matters in game
 GT.Helicopter_Num_ = 8 -- Number heli spawns
 
- ]]
 --[[ 
 -- the new LOS stuff is still new to me but this is what I have found out by looking through the lua files
 
