@@ -90,15 +90,15 @@ GT.TaxiRoutes.RoutesNumber = #GT.TaxiRoutes
 
 -- Spawn to take off 
 GT.TaxiForTORoutes = 
-	-- taxi routes and parking spots in LCS
+	-- taxi routes and parking spots in CVA-31
 	--    L/R         U/D       F/B
 	--    x				z        y		V_target
 	{		
 	{ RunwayIdx = 1, Points =
 		{ -- 1 spawn 
-			{{29.259,	  16.9042,       5.243},       2.0}, --Spawn Location   
-			{{35.366,	  16.9042,       5.243},       2.0}, --Facing location
-			{{49.0047,  16.9042,    7.8295},       1.0}  --behind holdback start
+			{{49.0,	      16.9042,       5.268},       2.0}, --Spawn Location   
+			{{50.0,	      16.9042,       5.268},       2.0}, --Facing location
+			{{49.07,      16.9042,       5.268},       1.0}  --behind holdback start
 		}
 	},
 	{ RunwayIdx = 2, Points =
