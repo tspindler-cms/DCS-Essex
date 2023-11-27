@@ -24,7 +24,8 @@ GT.RunWays.RunwaysNumber = #GT.RunWays
 GT.TaxiRoutes = 
 	-- taxi routes and parking spots in LCS
 	--    x				z          y			V_target
-{					
+{		
+--[[ 
 	{ -- 1 parking spot
 		--{{ 5.0,  	    16.9042,		-9.0},		3.0}, -- Landing location
 		{{ 18.163,	    16.9042,	 -12.604},		5.0}, -- WP1
@@ -84,7 +85,8 @@ GT.TaxiRoutes =
 	    {{ 31.52,	    16.9042,	   -20.589},	2.0},
 		{{ 35.794,	    16.9042,		 -21.0},	2.0,	1.0*60.0}
 		--{{ 35.794,	    16.9042,		 -18.0},	2.0}
-};
+	}
+	 ]]
 }
 GT.TaxiRoutes.RoutesNumber = #GT.TaxiRoutes
 
@@ -103,16 +105,19 @@ GT.TaxiForTORoutes =
 	},
 	{ RunwayIdx = 2, Points =
 		{ -- 2 spawn 
-			{{17.435,	  16.9042,       4.889},       2.0},
+--[[ 			{{17.435,	  16.9042,       4.889},       2.0},
 	        {{22.193,	  16.9042,      -2.840},       2.0},
 			{{22.986,	  16.9042,      -4.08},        2.0}, 
 		    {{29.575,	  16.9042,      -5.532},       2.0}, --JBD
 			{{38.806,	  16.9042,      -5.381},       1.0}, --Center Line
-			{{49.0047,  16.9042,    -10.4665},       1.0} -- Hold back start
+ ]]			
+ 			{{49.0,     16.9042,    -10.4665},       2.0}, 
+ 			{{50.0047,  16.9042,    -10.4665},       2.0},
+ 			{{49.0047,  16.9042,    -10.4665},       1.0} -- Hold back start
 		}
 	},
 
-	{ RunwayIdx = 1, Points =
+--[[ 	{ RunwayIdx = 1, Points =
 		{ -- 3 spawn 
 			{{7.945,	  16.9042,      5.057},        2.0}, --start
 			{{15.187,	  16.9042,     -2.840},        2.0}, --face
@@ -187,6 +192,7 @@ GT.TaxiForTORoutes =
 		
 		}
 	},    
+ ]]
 }
 GT.TaxiForTORoutes.RoutesForTONumber = #GT.TaxiForTORoutes
 
@@ -277,6 +283,7 @@ GT.Elevators =
 -- elevator routes and parking spots in LCS
 	--    x				z        y			V_target
 {		
+--[[ 
 	{ 	ElevatorIdx = 1, ElevatorType = 2, TerminalIdx = 1,	Points =
 		{ 
 			{{ 35.794,	5.164,	  -21.0}, 	1.0},
@@ -291,5 +298,6 @@ GT.Elevators =
 			{{-36.13,	5.164,	  0.0}, 	1.0}
 		}
 	},	
+	 ]]
 }
 GT.Elevators.ElevatorsNumber = #GT.Elevators	

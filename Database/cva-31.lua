@@ -71,15 +71,17 @@ GT.Stations = 	{	LSO = LSO_Station, }
 
 
 -- Landing point
-GT.Landing_Point	= {88.422, 21.293, 5.7438} -- y z x You need this otherwise the aircraft will not load on the deck
+-- GT.Landing_Point	= {88.422, 21.293, 5.7438} -- y z x You need this otherwise the aircraft will not load on the deck
+GT.Landing_Point	= {-78.5916, 17.0026, -5.60511}
 
 -- smoke density and position
 GT.exhaust = {
 	  [1] = { size = 0.2 , pos = {-15.269, 33.243, -13.786 } }, --Y, Z, X
 }
 
-GT.animation_arguments.catapult_shuttles = {145, 146, 147, 148} --shuttle args
+GT.animation_arguments.catapult_shuttles = {145, 146} -- shuttle args
 GT.animation_arguments.arresting_wires = {141, 142, 143, 144} -- can't get the visibilty anim to work, differnt #arg numbers on the Stennis and SC
+--[[ 
 GT.animation_arguments.holdback_bars_pos = {817, 818, 819, 820} 
 GT.animation_arguments.holdback_bars_angle = {808, 809, 810, 811} 
 GT.animation_arguments.holdback_bars_color = {812, 813, 814, 815}
@@ -90,6 +92,7 @@ GT.animation_arguments.elevators_fences_top = {27, 29, 31, 33}; --deck elevator 
 GT.animation_arguments.elevators_fences_bottom = {28, 30, 32, 34}; --hanger fences
 GT.animation_arguments.alarm_state = 10; -- for the nets around the boat and or weapon stations or other stuff like antennas going up or platforms going from green state to red state
 GT.animation_arguments.bubbles = {138, 139} -- doesn't go back down ED bug
+ ]]
 GT.animation_arguments.landing_strip_illumination = 150; --runway lights
 
 
