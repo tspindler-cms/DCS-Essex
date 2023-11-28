@@ -56,8 +56,8 @@ VerticalCoverageAngle = 1.7
 GT.distFindObstacles = 10000
 
 GT.numParking = 2 -- runways
-GT.Plane_Num_ = 12 --number of planes, not sure if it matters in game
-GT.Helicopter_Num_ = 8 -- Number heli spawns
+GT.Plane_Num_ = 5 --number of planes, not sure if it matters in game
+GT.Helicopter_Num_ = 3 -- Number heli spawns
 
 --[[ 
 -- the new LOS stuff is still new to me but this is what I have found out by looking through the lua files
@@ -76,7 +76,7 @@ GT.Landing_Point	= {-78.5916, 17.0026, -5.60511}
 
 -- smoke density and position
 GT.exhaust = {
-	  [1] = { size = 0.2 , pos = {-15.269, 33.243, -13.786 } }, --Y, Z, X
+	  [1] = { size = 0.2 , pos = {3.9136, 34.468, 11.437 } }, --Y, Z, X
 }
 
 GT.animation_arguments.catapult_shuttles = {145, 146} -- shuttle args
