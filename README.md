@@ -11,3 +11,5 @@ TheSn4k3 provided the catapult shuttle and wire.
 Thanks to Joey45, Admiral189 and Hawkeye60 for all the help and advice on getting this boat afloat in DCS.
 
 Final thanks to Citizen, tester of the mod.
+
+The carrier will be published in the Vietnam War Vessels mod, https://github.com/tspindler-cms/tetet-vwv
