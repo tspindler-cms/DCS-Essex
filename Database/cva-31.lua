@@ -79,9 +79,7 @@ GT.exhaust = {
 	  [1] = { size = 0.2 , pos = {3.9136, 34.468, 11.437 } }, --Y, Z, X
 }
 
-GT.animation_arguments.catapult_shuttles = {145, 146} -- shuttle args
-GT.animation_arguments.arresting_wires = {141, 142, 143, 144} -- can't get the visibilty anim to work, differnt #arg numbers on the Stennis and SC
---[[ 
+--[[
 GT.animation_arguments.holdback_bars_pos = {817, 818, 819, 820} 
 GT.animation_arguments.holdback_bars_angle = {808, 809, 810, 811} 
 GT.animation_arguments.holdback_bars_color = {812, 813, 814, 815}
@@ -93,13 +91,14 @@ GT.animation_arguments.elevators_fences_bottom = {28, 30, 32, 34}; --hanger fenc
 GT.animation_arguments.alarm_state = 10; -- for the nets around the boat and or weapon stations or other stuff like antennas going up or platforms going from green state to red state
 GT.animation_arguments.bubbles = {138, 139} -- doesn't go back down ED bug
  ]]
-GT.animation_arguments.landing_strip_illumination = 150; --runway lights
 
-GT.animation_arguments = {
-	water_propeller = 10,
-	radar1_rotation = 1,
-	radar2_rotation = 2
-}
+GT.animation_arguments.catapult_shuttles = {145, 146} -- shuttle args
+GT.animation_arguments.arresting_wires = {141, 142, 143, 144} -- can't get the visibilty anim to work, differnt #arg numbers on the Stennis and SC
+GT.animation_arguments.landing_strip_illumination = 150 --runway lights
+GT.animation_arguments.water_propeller = 10
+GT.animation_arguments.radar1_rotation = 1
+GT.animation_arguments.radar2_rotation = 2
+
 GT.radar1_period = 5; --speed
 GT.radar2_period = 20; --speed
 
@@ -113,18 +112,19 @@ GT.carrierIlluminationStates = {
 								
 --Damage Model
 GT.DM = {
-	{ area_name = "Cat walk", area_arg = 70, area_life = 50 },
-	{ area_name = "Cat walk 2", area_arg = 71, area_life = 50 },
-	{ area_name = "Cat walk 3", area_arg = 72, area_life = 50 },
-	{ area_name = "Cat walk 4", area_arg = 73, area_life = 50 },
+	-- { area_name = "Cat walk", area_arg = 70, area_life = 50 },
+	-- { area_name = "Cat walk 2", area_arg = 71, area_life = 50 },
+	-- { area_name = "Cat walk 3", area_arg = 72, area_life = 50 },
+	-- { area_name = "Cat walk 4", area_arg = 73, area_life = 50 },
 	{ area_name = "Deck", area_arg = 74, area_life = 150 },
-	{ area_name = "Deck no tie down", area_arg = 75, area_life = 150 },
-	{ area_name = "Hangar", area_arg = 76, area_life = 150 },
-	{ area_name = "Hangar ceiling", area_arg = 77, area_life = 150 },
-	{ area_name = "Hull", area_arg = 78, area_life = 150 },
+	-- { area_name = "Deck no tie down", area_arg = 75, area_life = 150 },
+	-- { area_name = "Hangar", area_arg = 76, area_life = 150 },
+	-- { area_name = "Hangar ceiling", area_arg = 77, area_life = 150 },
+	-- { area_name = "Hull", area_arg = 78, area_life = 150 },
 	{ area_name = "Island Elevator", area_arg = 79, area_life = 150 },
-	{ area_name = "JBD", area_arg = 80, area_life = 50 },
-	{ area_name = "Tail", area_arg = 81, area_life = 50 } 
+	{ area_name = "Island radar", area_arg = 80, area_life = 50 },
+	{ area_name = "JBD", area_arg = 81, area_life = 50 },
+	-- { area_name = "Tail", area_arg = 82, area_life = 50 } 
 	
 --[[     { area_name = "NOSE_R_01",  				area_arg = 70, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_01", size = 0.5}},
 	{ area_name = "NOSE_R_02", 				area_arg = 94, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_02", size = 0.5}},

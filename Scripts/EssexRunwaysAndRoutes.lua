@@ -7,14 +7,14 @@ GT.RunWays =
 {     
 -- landing strip definition (first in table)  
 --	VppStartPoint; 		   azimuth (degree} 	  Length_Vpp; 	   Width_Vpp;
-	{{-78.5916, 17.0026, -5.60511}, 349.0,		   97.0, 			   20.0,  --somewhere between last wire and model center / just past last wire
+	{{-78.5916, 16.9026, -5.60511}, 349.0,		   97.0, 			   20.0,  --somewhere between last wire and model center / just past last wire
 
 -- alsArgument, lowGlidePath, slightlyLowGlidePath, onLowerGlidePath, onUpperGlidePath, slightlyHighGlidePath, highGlidePath
 	1, 			3.5, 		  		4.0, 					4.5, 			  4.5, 				5.0, 				5.5},
 
 -- runways/Cats inbetween Hold back start and connect to front of ship not where the cat/start point connectors are
-	{{46.0047,  17.00,    9.331755}, 		000, 		    	  80.9248, 		    20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 1 location
-	{{46.1597,  17.00,  -12.076300}, 		000, 		    	  80.9248, 	        20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 2 location
+	{{51.5047,  16.90,    9.331755}, 		000, 		    	  76.9248, 		    20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 1 location
+	{{51.6597,  16.90,  -12.076300}, 		003, 		    	  76.9248, 	        20.0, 		0, 2.5, 2.8, 3.0, 3.0, 3.2, 3.5},  --  Cat 2 location
 	};
 
 GT.RunWays.RunwaysNumber = #GT.RunWays
@@ -23,30 +23,30 @@ GT.RunWays.RunwaysNumber = #GT.RunWays
 GT.TaxiRoutes = 
 {
 	{ -- 1 parking spot
-		--{{ 5.0,  	    17.00,		-9.0},		3.0}, -- Landing location
-		{{ -19.574, 17.00, 23.233 }, 3.0},
-		{{ -28.441, 17.00, -8},		2.0}, -- WP 4
-		{{ -28.481, 17.00, 3},		2.0,	1.0*60.0} -- Park . 1.0*60 = time for pilot to despawn 60 seconds, this is an option
+		--{{ 5.0,  	    16.90,		-9.0},		3.0}, -- Landing location
+		{{ -19.574, 16.90, 23.233 }, 3.0},
+		{{ -28.441, 16.90, -8 },		2.0}, -- WP 4
+		{{ -28.481, 16.90, 3 },		2.0,	1.0*60.0} -- Park . 1.0*60 = time for pilot to despawn 60 seconds, this is an option
 	},
 	{ -- 2 parking spot 
-		{{ -19.574, 17.00, 23.233 }, 3.0},
-		{{ -15.209, 17.00, -8},		2.0},
-		{{ -15.209, 17.00, 3},		2.0,	1.0*60.0}
+		{{ -19.574, 16.90, 23.233 }, 3.0},
+		{{ -15.209, 16.90, -8 },		2.0},
+		{{ -15.209, 16.90, 3 },		2.0,	1.0*60.0}
 	},
 	{ -- 3 parking spot
-		{{ -19.574, 17.00, 23.233 }, 3.0},
-		{{ -1.7325, 17.00, -8},		2.0},
-		{{ -1.7325, 17.00, 3},		2.0,	1.0*60.0}
+		{{ -19.574, 16.90, 23.233 }, 3.0},
+		{{ -1.7325, 16.90, -8 },		2.0},
+		{{ -1.7325, 16.90, 3 },		2.0,	1.0*60.0}
 	},
 	{ -- 4 parking spot
-		{{ -19.574, 17.00, 23.233 }, 3.0},
-		{{ 12.112, 17.00, -8},		2.0},
-		{{ 12.112, 17.00, 3},		2.0,	1.0*60.0}
+		{{ -19.574, 16.90, 23.233 }, 3.0},
+		{{ 12.112, 16.90, -8 },		2.0},
+		{{ 12.112, 16.90, 3 },		2.0,	1.0*60.0}
 	},
 	{ -- 5 parking spot
-		{{ -19.574, 17.00, 23.233 }, 3.0},
-		{{ 26.101, 17.00, -8.00}, 2.0}, -- WP1
-		{{ 26.101, 17.00, 3 }, 1.0, 1.0 * 60.0}
+		{{ -19.574, 16.90, 23.233 }, 3.0},
+		{{ 26.101, 16.90, -8.00 }, 2.0}, -- WP1
+		{{ 26.101, 16.90, 3 }, 1.0, 1.0 * 60.0}
 	}
 }
 
@@ -57,21 +57,42 @@ GT.TaxiForTORoutes =
 	-- taxi routes and parking spots in CVA-31
 	--    L/R         U/D       F/B
 	--    x				z        y		V_target
-	{		
+{		
 	{ RunwayIdx = 1, Points =
 		{ -- 1 spawn 
-			{{44.0,	      17.00,       9.331755},       2.0}, --Spawn Location   
-			{{50.0,	      17.00,       9.331755},       2.0}, --Facing location
-			{{49.0,       17.00,       9.331755},       1.0}  --behind holdback start
+			{{35.0,	      16.90,       4.331755},       2.0}, --Spawn Location   
+			{{48.0,	      16.90,       9.331755},       2.0}, --Facing location
+			{{51.0,	      16.90,       9.331755},       1.0}, --Facing location
+			{{52.0,       16.90,       9.331755},       1.0}  --behind holdback start
 		}
 	},
 	{ RunwayIdx = 2, Points =
 		{ -- 2 spawn 
- 			{{44.0,       17.00,    -12.076},       2.0}, 
- 			{{50.0,       17.00,    -10.535},       2.0},
- 			{{49.15,      17.00,    -12.076},       1.0} -- Hold back start
+ 			{{30.0,       16.90,    -12.076},       2.0}, 
+ 			{{51.0,       16.90,    -12.076},       2.0},
+			{{51.5,       16.90,    -11.833},       1.0},
+ 			{{52.15,      16.90,    -11.833},       1.0} -- Hold back start
 		}
 	},
+	{ RunwayIdx = 1, Points =
+		{ -- 3 spawn 
+			{{14.101, 16.90, -10.00},       2.0}, --Spawn Location   
+			{{35.0,	      16.90,       4.331755},       2.0}, --Spawn Location   
+			{{48.0,	      16.90,       9.331755},       2.0}, --Facing location
+			{{51.0,	      16.90,       9.331755},       1.0}, --Facing location
+			{{52.0,       16.90,       9.331755},       1.0}  --behind holdback start
+		}
+	},
+	{ RunwayIdx = 2, Points =
+		{ -- 4 spawn 
+ 			{{12.112, 16.90, -22.00},       2.0}, 
+			{{30.0,       16.90,    -12.076},       2.0}, 
+ 			{{50.0,       16.90,    -12.076},       2.0},
+			{{51.5,       16.90,    -11.833},       1.0},
+ 			{{52.15,      16.90,    -11.833},       1.0} -- Hold back start
+		}
+	},
+	
 }
 GT.TaxiForTORoutes.RoutesForTONumber = #GT.TaxiForTORoutes
 
@@ -82,17 +103,17 @@ GT.HelicopterSpawnTerminal =
 {		
 	{ TerminalIdx = 1, Points =
 		{ -- 1 spawn spot
-        {{ -122.41, 17.00, -12.279}, 	0.0}			
+        {{ -122.41, 16.90, -12.279}, 	0.0}			
 		}
 	},
 	{ TerminalIdx = 2, Points =
 		{ -- 2 spawn spot
-        {{ -53.44, 17.00, 11.285},   0.0}			
+        {{ -53.44, 16.90, 11.285},   0.0}			
 		}
 	},
 	{ TerminalIdx = 3, Points =
 		{ -- 3 spawn spot
-        {{ -32.204, 17.00, 12.94},   0.0}
+        {{ -32.204, 16.90, 12.94},   0.0}
 		}
 	},	
 }
