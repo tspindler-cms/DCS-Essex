@@ -94,7 +94,7 @@ GT.animation_arguments.bubbles = {138, 139} -- doesn't go back down ED bug
 
 GT.animation_arguments.catapult_shuttles = {145, 146} -- shuttle args
 GT.animation_arguments.arresting_wires = {141, 142, 143, 144} -- can't get the visibilty anim to work, differnt #arg numbers on the Stennis and SC
-GT.animation_arguments.landing_strip_illumination = 150 --runway lights
+GT.animation_arguments.landing_strip_illumination = 40 --runway lights
 GT.animation_arguments.water_propeller = 10
 GT.animation_arguments.radar1_rotation = 1
 GT.animation_arguments.radar2_rotation = 2
@@ -107,7 +107,7 @@ GT.radar2_period = 20; --speed
 GT.carrierIlluminationStates = { 
 								 {{307, 0.0, 0.45}, {308, 0.0, 0.45}, {790, 0.0, 0.60}, {792, 0.0, 0.37}}, --NAV_LIGHTS
 								 {{307, 0.0, 0.75}, {308, 0.0, 0.75}, {790, 0.0, 0.50}, {792, 0.0, 0.45}}, -- AC_LAUNCH_STATE
-								 {{307, 0.0, 0.30}, {308, 0.0, 0.30}, {150, 0.0, 1.00}, {790, 0.0, 0.50}, {792, 0.0, 0.37}}, -- AC_RECOVERY_STATE
+								 {{307, 0.0, 0.30}, {308, 0.0, 0.30}, { 40, 0.0, 1.00}, {790, 0.0, 0.50}, {792, 0.0, 0.37}}, -- AC_RECOVERY_STATE
 								}
 								
 --Damage Model
