@@ -120,7 +120,7 @@ GT.DM = {
 	-- { area_name = "Deck no tie down", area_arg = 75, area_life = 150 },
 	-- { area_name = "Hangar", area_arg = 76, area_life = 150 },
 	-- { area_name = "Hangar ceiling", area_arg = 77, area_life = 150 },
-	-- { area_name = "Hull", area_arg = 78, area_life = 150 },
+	{ area_name = "Hull Simple", area_arg = 78, area_life = 150 },
 	{ area_name = "Island Elevator", area_arg = 79, area_life = 150 },
 	{ area_name = "Island radar", area_arg = 80, area_life = 50 },
 	{ area_name = "JBD", area_arg = 81, area_life = 50 },
