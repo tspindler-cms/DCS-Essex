@@ -39,20 +39,20 @@ GT.IR_emission_coeff = 0.9 -- new in 2.7 not sure the params
 GT.TACAN = true;		--If it has TACAN say true if not say false or not have this entry
 GT.TACAN_position = {88.422, 21.293, 5.7438} -- { 5.7438, 88.422,  21.293 } -- position of tacan TX, center of wires
 
---[[ 
+
 GT.ICLS = true; -- IF it has ICLS say true if not say false or not have this entry
-GT.ICLS_Localizer_position =  {-109.324,  9.685,  7.715, 189.0}	-- {x [m], y [m], z [m], yaw [deg]} 
-GT.ICLS_Glideslope_position = {-14.694,  19.945, 13.212,   3.5}	-- {x [m], y [m], z [m], glideslope = 3.5 [deg]}
+GT.ICLS_Localizer_position =  {-31.699883,  17.116796,  -32.048683, 189.0}	-- {x [m], y [m], z [m], yaw [deg]} 
+GT.ICLS_Glideslope_position = {-78.591599,  17.002604, -4.102856,   4.5}	-- {x [m], y [m], z [m], glideslope = 3.5 [deg]}
 --Optical Landing System
 GT.OLS = {
-Type = GT_t.OLS_TYPE.IFLOLS, 
-CutLightsArg = 404, 
-DatumAndWaveOffLightsArg = 405, 
-MeatBallArg = 151, 
-GlideslopeBasicAngle = 3.5, 
-VerticalCoverageAngle = 1.7
+	Type = GT_t.OLS_TYPE.IFLOLS, 
+	CutLightsArg = 44, 
+	DatumAndWaveOffLightsArg = 45, 
+	MeatBallArg = 51, 
+	GlideslopeBasicAngle = 3.5, 
+	VerticalCoverageAngle = 1.7
 }
- ]]
+
 GT.distFindObstacles = 10000
 
 GT.numParking = 2 -- runways
