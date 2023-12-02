@@ -7,6 +7,7 @@ It has been brought to Arma 3 by NightIntruder and myself: https://steamcommunit
 
 Odyseus has updated the original model and develops it further.
 TheSn4k3 provided the catapult shuttle and wire.
+ColeMinor supplied the lights textures.
 
 Thanks to Joey45, Admiral189, Tobsen and Hawkeye60 for all the help and advice on getting this boat afloat in DCS.
 
