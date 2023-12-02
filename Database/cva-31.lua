@@ -56,7 +56,7 @@ GT.OLS = {
 GT.distFindObstacles = 10000
 
 GT.numParking = 2 -- runways
-GT.Plane_Num_ = 5 --number of planes, not sure if it matters in game
+GT.Plane_Num_ = 8 --number of planes, not sure if it matters in game
 GT.Helicopter_Num_ = 3 -- Number heli spawns
 
 --[[ 
