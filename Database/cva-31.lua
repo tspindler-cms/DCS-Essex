@@ -112,58 +112,15 @@ GT.carrierIlluminationStates = {
 								
 --Damage Model
 GT.DM = {
-	-- { area_name = "Cat walk", area_arg = 70, area_life = 50 },
-	-- { area_name = "Cat walk 2", area_arg = 71, area_life = 50 },
-	-- { area_name = "Cat walk 3", area_arg = 72, area_life = 50 },
-	-- { area_name = "Cat walk 4", area_arg = 73, area_life = 50 },
-	{ area_name = "Deck", area_arg = 74, area_life = 150 },
-	-- { area_name = "Deck no tie down", area_arg = 75, area_life = 150 },
-	-- { area_name = "Hangar", area_arg = 76, area_life = 150 },
-	-- { area_name = "Hangar ceiling", area_arg = 77, area_life = 150 },
+	{ area_name = "Deck aft", area_arg = 70, area_life = 100 },
+	{ area_name = "Deck cat", area_arg = 71, area_life = 100 },
+	{ area_name = "Deck fore", area_arg = 72, area_life = 100 },
+	{ area_name = "Deck island", area_arg = 73, area_life = 100 },
 	{ area_name = "Hull Simple", area_arg = 78, area_life = 150 },
 	{ area_name = "Island Elevator", area_arg = 79, area_life = 150 },
 	{ area_name = "Island radar", area_arg = 80, area_life = 50 },
 	{ area_name = "JBD", area_arg = 81, area_life = 50 },
-	-- { area_name = "Tail", area_arg = 82, area_life = 50 } 
-	
---[[     { area_name = "NOSE_R_01",  				area_arg = 70, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_01", size = 0.5}},
-	{ area_name = "NOSE_R_02", 				area_arg = 94, area_life = 150, area_fire = { connector = "FIRE_NOSE_R_02", size = 0.5}},
-	{ area_name = "CENTER_R_01", 			area_arg = 71, area_life = 150, area_fire = { connector = "FIRE_CENTER_R_01", size = 0.5}},
-	{ area_name = "CENTER_R_02", 			area_arg = 96, area_life = 150, area_fire = { connector = "FIRE_CENTER_R_02", size = 0.5}},
-    { area_name = "BACK_R", 				area_arg = 72, area_life = 300, area_fire = { connector = "FIRE_BACK_R", size = 0.5}},
-	
-    { area_name = "NOSE_L_01", 				area_arg = 73, area_life = 150, area_fire = { connector = "FIRE_NOSE_L_01", size = 0.5}},
-	{ area_name = "NOSE_L_02", 				area_arg = 95, area_life = 150, area_fire = { connector = "FIRE_NOSE_L_02", size = 0.5}},
-    { area_name = "CENTER_L_01", 			area_arg = 74, area_life = 150, area_fire = { connector = "FIRE_CENTER_L_01", size = 0.5}},
-	{ area_name = "CENTER_L_02", 			area_arg = 97, area_life = 150, area_fire = { connector = "FIRE_CENTER_L_02", size = 0.5}},
-	{ area_name = "CENTER_L_03", 			area_arg = 98, area_life = 150},
-    { area_name = "BACK_L", 				area_arg = 75, area_life = 300, area_fire = { connector = "FIRE_BACK_L", size = 0.5}},
-	
-	{ area_name = "PALUBA_NOSE",			area_arg = 76, area_life = 100, area_fire = { connector = "FIRE_PALUBA_NOSE", size = 0.8}},
-	{ area_name = "PALUBA_MIDLE_01",		area_arg = 77, area_life = 100, area_fire = { connector = "FIRE_PALUBA_MIDLE_01", size = 0.8}},
-	{ area_name = "PALUBA_MIDLE_02",		area_arg = 92, area_life = 100, area_fire = { connector = "FIRE_PALUBA_MIDLE_02", size = 0.8}},
-	{ area_name = "PALUBA_BACK_01", 		area_arg = 78, area_life = 100, area_fire = { connector = "FIRE_PALUBA_BACK_01", size = 0.8}},
-	{ area_name = "PALUBA_BACK_02", 		area_arg = 93, area_life = 100, area_fire = { connector = "FIRE_PALUBA_BACK_02", size = 0.8}},
-	
-	{ area_name = "BACK", 					area_arg = 79, area_life = 100},
-	{ area_name = "RUBKA",					area_arg = 80, area_life = 100, area_fire = { connector = "FIRE_RUBKA", size = 0.8}},
-	{ area_name = "MACHTA",					area_arg = 81, area_life = 100},
-	{ area_name = "TOWER",					area_arg = 82, area_life = 100},
-
-	{ area_name = "ZA_NR",					area_arg = 99, area_life = 30},
-	{ area_name = "ZA_BR",					area_arg = 100, area_life = 30},
-	{ area_name = "ZA_BL",					area_arg = 101, area_life = 30},
-	{ area_name = "NADSTROYKA_BR",			area_arg = 102, area_life = 30},
-	{ area_name = "NADSTROYKA_BL",			area_arg = 103, area_life = 30},
-	{ area_name = "ZRK_BR",					area_arg = 104, area_life = 30},
-	{ area_name = "ZRK_NR",					area_arg = 105, area_life = 30},
-	
-	
-	{ area_name = "LIFT_01",				area_arg = 109, area_life = 50},
-	{ area_name = "LIFT_02",				area_arg = 110, area_life = 50},
-	{ area_name = "LIFT_03",				area_arg = 111, area_life = 50},
-	{ area_name = "LIFT_04",				area_arg = 112, area_life = 50},
- ]]}
+}
 
 --GT.WS[ws].pointer = "BRIDGE" --possible CA or Weapon controls??
 --GT.driverViewConnectorName = {"DRIVER_POINT", offset = {0.0, 0.0, 0.0}} --possible CA or weapon controls??
