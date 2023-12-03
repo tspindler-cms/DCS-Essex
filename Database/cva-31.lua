@@ -49,7 +49,7 @@ GT.OLS = {
 	CutLightsArg = 44, 
 	DatumAndWaveOffLightsArg = 45, 
 	MeatBallArg = 51, 
-	GlideslopeBasicAngle = 3.5, 
+	GlideslopeBasicAngle = 4.5, 
 	VerticalCoverageAngle = 1.7
 }
 
@@ -71,7 +71,6 @@ GT.Stations = 	{	LSO = LSO_Station, }
 
 
 -- Landing point
--- GT.Landing_Point	= {88.422, 21.293, 5.7438} -- y z x You need this otherwise the aircraft will not load on the deck
 GT.Landing_Point	= {-78.5916, 17.0026, -5.60511}
 
 -- smoke density and position
