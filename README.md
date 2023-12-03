@@ -30,3 +30,4 @@ KNOWN ISSUES
 * The IFLOLS is not fully operational
 * The AA guns are not working
 * The white landing lights are not fully aligned with the yellow-white marking
+* The wires are not hidden upon trapping
