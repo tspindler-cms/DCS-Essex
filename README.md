@@ -25,7 +25,6 @@ References:
 
 KNOWN ISSUES
 * The collision shell at catapult 2 (port) sometimes fails and the planes starts from the hangar, more or less
-* The JBD sink into the deck when deployed
 * The island has gaps in between meshes
 * The trail marking is suspended in thin air
 * The IFLOLS is not fully operational
