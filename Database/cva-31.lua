@@ -118,7 +118,7 @@ GT.DM = {
 	{ area_name = "Hull Simple", area_arg = 78, area_life = 150 },
 	{ area_name = "Island Elevator", area_arg = 79, area_life = 150 },
 	{ area_name = "Island radar", area_arg = 80, area_life = 50 },
-	{ area_name = "JBD", area_arg = 81, area_life = 50 },
+	-- { area_name = "JBD", area_arg = 81, area_life = 50 },
 }
 
 --GT.WS[ws].pointer = "BRIDGE" --possible CA or Weapon controls??
