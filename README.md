@@ -29,3 +29,4 @@ KNOWN ISSUES
 * The trail marking is suspended in thin air
 * The IFLOLS is not fully operational
 * The AA guns are not working
+* The VSN F-4B falls through the deck
