@@ -37,7 +37,7 @@ GT.IR_emission_coeff = 0.9 -- new in 2.7 not sure the params
 
 -- TODO: ensure any of this works
 GT.TACAN = true;		--If it has TACAN say true if not say false or not have this entry
-GT.TACAN_position = {88.422, 21.293, 5.7438} -- { 5.7438, 88.422,  21.293 } -- position of tacan TX, center of wires
+GT.TACAN_position = {-72.5916, 16.95, -5.60511} -- { 5.7438, 88.422,  21.293 } -- position of tacan TX, center of wires
 
 
 GT.ICLS = true; -- IF it has ICLS say true if not say false or not have this entry
