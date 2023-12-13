@@ -32,3 +32,4 @@ KNOWN ISSUES
 * The IFLOLS is not fully operational
 * The AA guns are not working
 * The VSN F-4B nose gear collapses upon launch
+* BDA between CVA-31 and planes happen all times on launch and landing
