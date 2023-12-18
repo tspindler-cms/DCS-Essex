@@ -12,7 +12,7 @@ It has been brought to Arma 3 by NightIntruder and myself: https://steamcommunit
 
 Thanks to Joey45, Admiral189, Tobsen and Hawkeye60 for all the help and advice on getting this boat afloat in DCS.
 
-Final thanks to Citizen and seabat, testers of the mod.
+Final thanks to Citizen, seabat and Zabbie, testers of the mod.
 
 The carrier will be published in the Vietnam War Vessels mod, https://github.com/tspindler-cms/tetet-vwv
 
