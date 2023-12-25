@@ -97,9 +97,13 @@ GT.animation_arguments.landing_strip_illumination = 40 --runway lights
 GT.animation_arguments.water_propeller = 10
 GT.animation_arguments.radar1_rotation = 1
 GT.animation_arguments.radar2_rotation = 2
+GT.animation_arguments.radar3_rotation = 3
+-- GT.animation_arguments.radar4_rotation = 4
 
 GT.radar1_period = 10; --speed
 GT.radar2_period = 20; --speed
+GT.radar3_period = 10; --speed
+-- GT.radar4_period = 10; --speed
 
 -- for lights you can look at the shps in the modelviewer 
 --                             {int ArgumentNo, float OffValue, float OnValue, [float AnimationDuration],  [bool cycleAnimation]}
