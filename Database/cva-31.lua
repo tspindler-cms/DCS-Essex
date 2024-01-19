@@ -3,7 +3,7 @@
 
 GT = {};
 -- TODO
-dofile(current_mod_path..'/scripts/EssexRunwaysAndRoutes.lua') -- the runways and taxiway lua file
+dofile(current_mod_path..'/Database/EssexRunwaysAndRoutes.lua') -- the runways and taxiway lua file
 GT_t.ws = 0;
 
 set_recursive_metatable(GT, GT_t.generic_ship) -- all ships have this
