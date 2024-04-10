@@ -20,10 +20,10 @@ declare_plugin("tetet_cva31",
 
 })
 
-mount_vfs_liveries_path (current_mod_path ..  "/Liveries")
-mount_vfs_model_path    (current_mod_path ..  "/Shapes")
-mount_vfs_texture_path	(current_mod_path ..  "/Textures/cva-31.zip")
+mount_vfs_liveries_path (current_mod_path .. "/Liveries")
+mount_vfs_model_path    (current_mod_path .. "/Shapes")
+mount_vfs_texture_path	(current_mod_path .. "/Textures/cva-31.zip")
 
-dofile(current_mod_path .."/Database/db_ships.lua")
+dofile(current_mod_path .. "/Database/db_ships.lua")
 
 plugin_done()
