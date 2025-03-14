@@ -53,7 +53,7 @@ GT.OLS = {
 	VerticalCoverageAngle = 1.7
 }
 
-GT.distFindObstacles = 10000
+GT.distFindObstacles = 800
 
 GT.numParking = 2 -- runways
 GT.Plane_Num_ = 8 --number of planes, not sure if it matters in game

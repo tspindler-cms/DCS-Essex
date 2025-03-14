@@ -1,9 +1,9 @@
 declare_plugin("tetet_cva31",
 {
 	dirName		  = current_mod_path,
-	displayName   = _("CVA-31 Bon Homme Richard"),
+	displayName   = _("CVA-31 USS Bon Homme Richard"),
 	shortName	  =   "CVA-31",
-	version		  =   "0.10.0",
+	version		  =   "1.0.0",
 	state		  =   "installed",
 	fileMenuName = _("vwv_cva31"),
 	developerName =   "TeTeT",
