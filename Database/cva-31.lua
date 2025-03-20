@@ -12,7 +12,7 @@ GT.visual = {}
 GT.visual.shape = "essex_dcs"  -- name of LODs lua
 GT.visual.shape_dstr = "" -- if there is a destruction model it goes here
 
-GT.life = 27500; -- hit points
+GT.life = 6875; -- hit points
 GT.mass = 27500000.00; -- KGs
 GT.max_velocity = 16.9766667 --M/S
 GT.race_velocity = 12.1 --M/S
@@ -112,9 +112,9 @@ GT.radar3_period = 10; --speed
 -- for lights you can look at the shps in the modelviewer 
 --                             {int ArgumentNo, float OffValue, float OnValue, [float AnimationDuration],  [bool cycleAnimation]}
 GT.carrierIlluminationStates = { 
-								 {{307, 0.0, 0.45}, {308, 0.0, 0.45}, {790, 0.0, 0.60}, {792, 0.0, 0.37}}, --NAV_LIGHTS
-								 {{307, 0.0, 0.75}, {308, 0.0, 0.75}, {790, 0.0, 0.50}, {792, 0.0, 0.45}}, -- AC_LAUNCH_STATE
-								 {{307, 0.0, 0.30}, {308, 0.0, 0.30}, { 40, 0.0, 1.00}, {790, 0.0, 0.50}, {792, 0.0, 0.37}}, -- AC_RECOVERY_STATE
+								 {{901, 0.0, 1.0}}, --NAV_LIGHTS
+								 {}, -- AC_LAUNCH_STATE
+								 {}, -- AC_RECOVERY_STATE
 								}
 								
 --Damage Model
